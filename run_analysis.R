@@ -162,13 +162,3 @@ names(tidy_Data)
 head(tidy_Data,5)
 write.table(tidy_Data, file = "tidydata.txt",row.name = FALSE)
 #
-#write.table(Data2,file= "tidydata.csv",row.name=FALSE,col.names = TRUE,sep=",")
-#
-## Prouduce Codebook
-#
-# library(knitr)
-# if (!file.exists(".codebook.Rmd"))
-# {
-#         file.create("codebook.Rmd",showWarnings = F)
-# }
-# knit2html("codebook.Rmd")
