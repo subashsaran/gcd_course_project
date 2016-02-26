@@ -22,3 +22,8 @@ Here are the data for the project:
 3. **Uses descriptive activity names to name the activities in the data set**
 4. **Appropriately labels the data set with descriptive variable names.**
 5. **From the data set in step 4, creates a second, independent tidy data set with the average of      each variable for each activity and each subject.**
+  
+##Instruction to run the code:
+1. **The code creates a data folder so carefull or Setup a new work directory.**
+2. **Use the command source("run_analysis.R") or RStudio Scource.**
+3. **A text file called tidydata will be created on your directory.**
